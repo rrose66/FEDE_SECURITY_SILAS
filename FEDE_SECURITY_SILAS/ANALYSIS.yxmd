@@ -1,0 +1,402 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FEDEBOM PROD Security Matrix.xlsx
+Table=`FEDEBOM PROD Security Matrix$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CDS_ID" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="V_String" />
+            <Field name="PROGRAM" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="V_String" />
+            <Field name="ROLE" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="V_String" />
+            <Field name="SUPP_CODE" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="V_String" />
+            <Field name="REASON" size="256" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="V_WString" />
+            <Field name="CREATE_TIME" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="DateTime" />
+            <Field name="PMT1" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="V_String" />
+            <Field name="PMT2" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="V_String" />
+            <Field name="PMT3" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="V_String" />
+            <Field name="PMT4" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="V_String" />
+            <Field name="PMT5" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="V_String" />
+            <Field name="PMT6" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="V_String" />
+            <Field name="PMT7" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="V_String" />
+            <Field name="UPDATE_DATE" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="DateTime" />
+            <Field name="REQUEST_ID" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="Double" />
+            <Field name="STATUS" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="V_String" />
+            <Field name="APPROVED" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="V_String" />
+            <Field name="NAME" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="V_String" />
+            <Field name="EMPTYPE" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="V_String" />
+            <Field name="ORG" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="V_String" />
+            <Field name="MANAGER" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\FEDEBOM PROD Security Matrix.xlsx|||`FEDEBOM PROD Security Matrix$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">Y:\ARCHIVES\ORACLE\ORACLE_DUMP_20191003.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ORACLE_DUMP_20191003.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="BOMF47_TC_PGM_C" size="254" source="File: Y:\ARCHIVES\ORACLE\ORACLE_DUMP_20191003.csv" type="V_String" />
+            <Field name="BOMF03_USR_C" size="254" source="File: Y:\ARCHIVES\ORACLE\ORACLE_DUMP_20191003.csv" type="V_String" />
+            <Field name="BOMF47_TC_JOB_ROLE_C" size="254" source="File: Y:\ARCHIVES\ORACLE\ORACLE_DUMP_20191003.csv" type="V_String" />
+            <Field name="BOMF47_REQT_STAT_C" size="254" source="File: Y:\ARCHIVES\ORACLE\ORACLE_DUMP_20191003.csv" type="V_String" />
+            <Field name="BOMF48_APRVR_TYP_C" size="254" source="File: Y:\ARCHIVES\ORACLE\ORACLE_DUMP_20191003.csv" type="V_String" />
+            <Field name="BOMF48_APRVL_STAT_C" size="254" source="File: Y:\ARCHIVES\ORACLE\ORACLE_DUMP_20191003.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="222" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="CDS_ID" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="246" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="BOMF47_TC_PGM_C" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PROD SILAS.xlsx
+Table=`FEDEBOM Users SILAS Data$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="AABDELR4" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="V_String" />
+            <Field name="Abdel-Rahman, Abdalla (A.)" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="V_String" />
+            <Field name="aabdelr4@ford.com" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="V_String" />
+            <Field name="1-313-3902974" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="V_String" />
+            <Field name="A" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="V_String" />
+            <Field name="N" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="V_String" />
+            <Field name="Product Development" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="V_String" />
+            <Field name="PRD" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="V_String" />
+            <Field name="USA" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="V_String" />
+            <Field name="Aerotek Inc" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="V_String" />
+            <Field name="Product Development Center" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="V_String" />
+            <Field name="PDC" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="V_String" />
+            <Field name="CX483 PMT Engineer" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="V_WString" />
+            <Field name="CHIEF, INTERIOR, UNIBODY" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="V_String" />
+            <Field name="PRD2" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="V_String" />
+            <Field name="FORDNA1" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="V_String" />
+            <Field name="LMCCOY1" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="V_String" />
+            <Field name="LMCCOY1_2" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="V_String" />
+            <Field name="lmccoy1@ford.com" size="255" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="V_String" />
+            <Field name="F20" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="Double" />
+            <Field name="F21" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="Double" />
+            <Field name="F22" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="Double" />
+            <Field name="F23" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="Double" />
+            <Field name="F24" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="Double" />
+            <Field name="F25" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="Double" />
+            <Field name="F26" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="Double" />
+            <Field name="F27" source="File: C:\PROJECTS\DATA\FEDEBOM\CREDENTIAL_MANAGEMENT\SEGREGATION_OF_DUTIES\SOURCE_OF_TRUTH_DATA\PROD SILAS.xlsx|||`FEDEBOM Users SILAS Data$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="246" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="AABDELR4" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="234" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Uppercase([BOMF03_USR_C])" field="CDSID" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[CDSID = Uppercase([BOMF03_USR_C])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="222" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Uppercase([CDS_ID])" field="CDSID" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[CDSID = Uppercase([CDS_ID])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="234" y="474" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Uppercase([AABDELR4])" field="CDSID" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[CDSID = Uppercase([AABDELR4])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="414" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="CDSID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="CDSID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="642" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="CDSID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="CDSID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="10" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="11" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Right" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>ANALYSIS</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
